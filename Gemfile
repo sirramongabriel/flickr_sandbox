@@ -6,6 +6,7 @@ gem 'pg'
 gem 'jquery-rails'
 gem 'figaro'
 gem 'twitter-bootstrap-rails'
+gem 'flickr-fu'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

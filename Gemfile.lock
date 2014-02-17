@@ -42,6 +42,8 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
+    flickr-fu (0.1.4)
+      xml-magic
     hike (1.2.3)
     i18n (0.6.9)
     journey (1.0.4)
@@ -105,6 +107,7 @@ GEM
     uglifier (2.4.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    xml-magic (0.1.1)
 
 PLATFORMS
   ruby
@@ -112,6 +115,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   figaro
+  flickr-fu
   jquery-rails
   pg
   rails (= 3.2.16)
