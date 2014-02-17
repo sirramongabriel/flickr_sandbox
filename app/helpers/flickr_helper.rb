@@ -6,11 +6,11 @@ module FlickrHelper
   end
 
   def render_flickr_sidebar_widget(user_id, photo_count = 12, columns = 2)
-    begin
+    # begin
       photos = user_photos(user_id, photo_count).in_groups_of(2)
-      render partial: '/flickr/sidebar_widget', locals: { photos: photos }
-    rescue Exception
-      render partial: '/flickr/unavailable'
-    end
+      render partial: '/static_pages/sidebar_widget', locals: { photos: photos }
+    # rescue Exception
+    #   render partial: '/static_pages/unavailable'
+    # end
   end
 end
