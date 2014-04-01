@@ -6,7 +6,7 @@ require File.dirname(__FILE__) + '/../config/environment.rb'
 puts Rails.root
 
 # flickr-fu gem
-require 'flickr_fu'
+# require 'flickr_fu'
 
 # Initialize the rails application
-FlickrSandbox::Application.initialize!
+# FlickrSandbox::Application.initialize!
